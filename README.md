@@ -52,16 +52,6 @@ To start the API server during development:
 uv run uvicorn job_search_mcp.api:app --reload
 ```
 
-### Development Loop
-
-When you start building the actual app, a good workflow will be:
-
-1. add dependencies to `pyproject.toml`
-2. implement the ingestion and retrieval modules
-3. expose API or MCP tools
-4. connect the frontend
-5. add tests and observability
-
 ### Frontend Dev
 
 From `frontend/`:
